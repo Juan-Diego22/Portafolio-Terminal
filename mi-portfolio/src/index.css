@@ -60,6 +60,15 @@ body {
 .header h1 { color: var(--primary); font-size: 3.5rem; text-shadow: 0 0 15px var(--primary-dark); transition: color 0.5s ease; }
 .header p { color: var(--primary-dim); font-size: 1.2rem; }
 
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  z-index: 10;
+}
+
 /* Theme Toggle */
 .theme-toggle {
   position: absolute;
@@ -182,5 +191,18 @@ body {
   }
   .header h1 {
     font-size: 2.5rem;
+  }
+  .container {
+    padding: 1rem;
+  }
+  .terminal-body {
+    height: 300px;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  .theme-toggle {
+    position: static;
+    margin-bottom: 1rem;
+    align-self: flex-end;
   }
 }

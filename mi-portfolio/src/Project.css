@@ -307,3 +307,30 @@
     font-size: 1.1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .modal-body {
+    padding: 15px;
+  }
+
+  .projects-grid {
+    gap: 15px;
+  }
+
+  .project-content {
+    padding: 15px;
+  }
+
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .project-description {
+    font-size: 13px;
+  }
+
+  .project-btn {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}
