@@ -48,11 +48,6 @@ function App() {
 
         <Terminal theme={theme} onThemeToggle={toggleTheme} onOpenProjects={handleOpenProjects}/>
 
-        <div className="social-links">
-          <a href="https://discord.gg/zencode" className="social-link" target="_blank" rel="noreferrer">Discord</a>
-          <a href="#" className="social-link">GitHub</a>
-          <a href="#" className="social-link">Email</a>
-        </div>
       </div>
       
       {/* Modal de proyectos */}
